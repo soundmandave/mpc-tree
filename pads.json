@@ -1,0 +1,28 @@
+{
+  "artistName": "soundmandave",
+  "tagline": "sound boy dun grew up",
+  "categories": [
+    {
+      "name": "Bank 1 - Latest",
+      "pads": [
+        {
+          "displayTitle": "Bin Rich + Singin' To My Plants",
+          "padLabel": "Bin Rich + Singin' To My Plants",
+          "link": "https://www.youtube.com/watch?v=vbRkkl07txs",
+          "thumbnail": "childrenofriddimbinrichsingintomyplants.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        }
+
+      ]
+    },
+    {
+      "name": "",
+      "pads": []
+    },
+    {
+      "name": "",
+      "pads": []
+    }
+  ]
+}

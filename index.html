@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Makes site responsive on mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MPC OS 95</title>
+
+  <!-- All styling lives here -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 
+==================================================
+WINDOWS 95 DESKTOP BACKGROUND
+This acts as the teal desktop background
+==================================================
+-->
+<div class="desktop">
+
+  <!-- 
+  ==================================================
+  MAIN APPLICATION WINDOW
+  Styled like a Windows 95 program window
+  ==================================================
+  -->
+  <div class="win95-window">
+
+    <!-- Title bar (blue bar at top) -->
+    <div class="title-bar">
+      <!-- Artist name inserted dynamically from JSON -->
+      <span id="artistName">Loading...</span>
+    </div>
+
+    <div class="window-content">
+
+      <div class="mpc">
+
+        <!-- 
+        ==============================================
+        CATEGORY TABS (Releases / Mixes / etc)
+        Built dynamically from JSON categories
+        ==============================================
+        -->
+        <div class="tab-bar" id="tabBar"></div>
+
+        <!-- 
+        ==============================================
+        MPC DISPLAY SCREEN
+        Shows:
+        - Artist Name
+        - Hovered pad title
+        ==============================================
+        -->
+        <div class="mpc-display" id="mpcDisplay">
+          <h1>Loading...</h1>
+          <p>Please wait</p>
+        </div>
+
+        <!-- Artist tagline inserted from JSON -->
+        <div class="tagline" id="tagline"></div>
+
+        <!-- 
+        ==============================================
+        PAD GRID
+        Pads are auto-generated via JavaScript
+        ==============================================
+        -->
+        <div class="pad-grid" id="padGrid"></div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Logic engine -->
+<script src="script.js"></script>
+
+</body>
+</html>
