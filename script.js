@@ -5,6 +5,10 @@ All dynamic content is loaded from pads.json
 ==================================================
 */
 
+let selectedLink = null;
+let selectedPadElement = null;
+
+const goButton = document.getElementById("goButton");
 const padGrid = document.getElementById("padGrid");
 const display = document.getElementById("mpcDisplay");
 const artistHeader = document.getElementById("artistName");
@@ -88,13 +92,8 @@ function buildPads(pads, artistName) {
     const padElement = document.createElement("a");
     padElement.classList.add("pad");
 
-    // If link exists, make clickable
-    if (pad.link) {
-      padElement.href = pad.link;
-      padElement.target = "_blank";
-    } else {
-      padElement.href = "#";
-    }
+  // Pads no longer auto-navigate
+padElement.href = "#";
 
     // Thumbnail
     if (pad.thumbnail) {
@@ -118,12 +117,33 @@ function buildPads(pads, artistName) {
       `;
     });
 
-    // Optional custom sound
-    padElement.addEventListener("click", () => {
-      if (pad.sound) {
-        new Audio("sounds/" + pad.sound).play();
-      }
-    });
+   padElement.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  // Remove previous selection
+  if (selectedPadElement) {
+    selectedPadElement.classList.remove("selected");
+  }
+
+  // Select this pad
+  selectedPadElement = padElement;
+  selectedPadElement.classList.add("selected");
+
+  // Store selected link
+  selectedLink = pad.link || null;
+
+  // Enable GO button if link exists
+  if (selectedLink) {
+    goButton.disabled = false;
+  } else {
+    goButton.disabled = true;
+  }
+
+  // Play optional sound
+  if (pad.sound) {
+    new Audio("sounds/" + pad.sound).play();
+  }
+});
 
     // Optional glow color
     if (pad.color) {
@@ -158,3 +178,10 @@ function bootAnimation() {
 
   });
 }
+
+goButton.addEventListener("click", () => {
+  if (selectedLink) {
+    window.open(selectedLink, "_blank");
+  }
+});
+
