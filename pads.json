@@ -12,8 +12,95 @@
           "thumbnail": "childrenofriddimbinrichsingintomyplants.png",
           "color": "#00ff66",
           "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "straywave - winter solstice deep dubstep mix",
+          "padLabel": "straywave - winter solstice deep dubstep mix",
+          "link": "https://soundcloud.com/strayw4ve/winter-solstice-deep-dubstep-mix-mode-london",
+          "thumbnail": "wintersolsticedeepdubstepmix.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "leaves on a stream full album youtube",
+          "padLabel": "david berry - leaves on a stream",
+          "link": "https://www.youtube.com/watch?v=nkfvsEBHuQM&t=1393s",
+          "thumbnail": "leaves.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "Cowry Bay 1 + 2 full album youtube",
+          "padLabel": "david berry - Cowry Bay 1 + 2",
+          "link": "https://www.youtube.com/watch?v=2a4LeIdVt8E&t=3710s",
+          "thumbnail": "cowrybay.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "Listen to supafly on streaming services (not spotify)",
+          "padLabel": "BIN RICH - Supafly",
+          "link": "https://artists.landr.com/055905717232",
+          "thumbnail": "supafly.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "Listen to TIP DRAP on streaming services (not spotify)",
+          "padLabel": "BIN RICH - TIP DRAP",
+          "link": "https://artists.landr.com/055905903864",
+          "thumbnail": "tipdrap.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "Listen to Leaves On A Stream on streaming services",
+          "padLabel": "David Berry - Leaves On A Stream",
+          "link": "https://artists.landr.com/davidberry",
+          "thumbnail": "leaves.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "Listen to Cowry Bay on streaming services",
+          "padLabel": "David Berry - Cowry Bay",
+          "link": "https://artists.landr.com/CowryBay1",
+          "thumbnail": "cowrybay.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "straywave on Soundcloud",
+          "padLabel": "straywave on Soundcloud",
+          "link": "https://soundcloud.com/strayw4ve",
+          "thumbnail": "cowrybay.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "BIN RICH on Soundcloud",
+          "padLabel": "BIN RICH on Soundcloud",
+          "link": "https://soundcloud.com/bin-rich",
+          "thumbnail": "binrich.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "straywave on Instagram",
+          "padLabel": "stray gram",
+          "link": "https://www.instagram.com/soundman.dave/",
+          "thumbnail": "straygram.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
+        },
+        {
+          "displayTitle": "BIN RICH on Instagram",
+          "padLabel": "BINSTAGRAM",
+          "link": "https://soundcloud.com/bin-rich",
+          "thumbnail": "binstagram.png",
+          "color": "#00ff66",
+          "sound": "Wheel Up Signal Misc Jungle.wav"
         }
-
       ]
     },
     {
