@@ -117,7 +117,7 @@ padElement.href = "#";
       `;
     });
 
-   padElement.addEventListener("click", (e) => {
+ padElement.addEventListener("click", (e) => {
   e.preventDefault();
 
   // Remove previous selection
@@ -125,21 +125,22 @@ padElement.href = "#";
     selectedPadElement.classList.remove("selected");
   }
 
-  // Select this pad
+  // Select new pad
   selectedPadElement = padElement;
   selectedPadElement.classList.add("selected");
 
-  // Store selected link
   selectedLink = pad.link || null;
 
-  // Enable GO button if link exists
   if (selectedLink) {
     goButton.disabled = false;
+    goButton.classList.add("armed");
+    statusLed.classList.add("active");
+    goInstruction.textContent = "Ready. Press GO to launch.";
   } else {
     goButton.disabled = true;
   }
 
-  // Play optional sound
+  // Optional sound
   if (pad.sound) {
     new Audio("sounds/" + pad.sound).play();
   }
@@ -179,9 +180,42 @@ function bootAnimation() {
   });
 }
 
+
+
+
 goButton.addEventListener("click", () => {
-  if (selectedLink) {
+  if (!selectedLink) return;
+
+  // Quick flash effect
+  goInstruction.textContent = "Launching...";
+  statusLed.classList.remove("active");
+
+  setTimeout(() => {
     window.open(selectedLink, "_blank");
-  }
+    resetSelection();
+  }, 400);
 });
+
+cancelButton.addEventListener("click", () => {
+  resetSelection();
+});
+
+
+function resetSelection() {
+  if (selectedPadElement) {
+    selectedPadElement.classList.remove("selected");
+  }
+
+  selectedPadElement = null;
+  selectedLink = null;
+
+  goButton.disabled = true;
+  goButton.classList.remove("armed");
+  statusLed.classList.remove("active");
+
+  goInstruction.innerHTML =
+    'Press a Pad then hit <strong>GO</strong> to launch';
+}
+
+
 
