@@ -60,8 +60,25 @@ This acts as the teal desktop background
           <p>Please wait</p>
         </div>
         
-        <div class="go-container">
-  <button id="goButton" disabled>GO</button>
+        <div class="transport-container">
+
+  <!-- Instruction Text -->
+  <div class="go-instruction" id="goInstruction">
+    Press a Pad then hit <strong>GO</strong> to launch
+  </div>
+
+  <!-- LED Indicator -->
+  <div class="led-row">
+    <div class="led" id="statusLed"></div>
+    <span class="led-label">ARMED</span>
+  </div>
+
+  <!-- Transport Controls -->
+  <div class="transport-buttons">
+    <button id="cancelButton">CANCEL</button>
+    <button id="goButton" disabled>GO</button>
+  </div>
+
 </div>
 
         <!-- Artist tagline inserted from JSON -->
