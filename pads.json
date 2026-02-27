@@ -6,8 +6,8 @@
       "name": "Bank 1 - Latest",
       "pads": [
         {
-          "displayTitle": "Bin Rich + Singin' To My Plants",
-          "padLabel": "Bin Rich + Singin' To My Plants",
+          "displayTitle": "Bin Rich + Singin' To My Plants youtube",
+          "padLabel": "Bin Rich + Singin' To My Plants youtube",
           "link": "https://www.youtube.com/watch?v=vbRkkl07txs",
           "thumbnail": "childrenofriddimbinrichsingintomyplants.png",
           "color": "#00ff66",
@@ -23,7 +23,7 @@
         },
         {
           "displayTitle": "leaves on a stream full album youtube",
-          "padLabel": "david berry - leaves on a stream",
+          "padLabel": "david berry - leaves on a stream youtube",
           "link": "https://www.youtube.com/watch?v=nkfvsEBHuQM&t=1393s",
           "thumbnail": "leaves.png",
           "color": "#00ff66",
@@ -31,7 +31,7 @@
         },
         {
           "displayTitle": "Cowry Bay 1 + 2 full album youtube",
-          "padLabel": "david berry - Cowry Bay 1 + 2",
+          "padLabel": "david berry - Cowry Bay 1 + 2 youtube",
           "link": "https://www.youtube.com/watch?v=2a4LeIdVt8E&t=3710s",
           "thumbnail": "cowrybay.png",
           "color": "#00ff66",
@@ -39,7 +39,7 @@
         },
         {
           "displayTitle": "Listen to supafly on streaming services (not spotify)",
-          "padLabel": "BIN RICH - Supafly",
+          "padLabel": "Listen to BIN RICH - Supafly",
           "link": "https://artists.landr.com/055905717232",
           "thumbnail": "supafly.png",
           "color": "#00ff66",
@@ -47,7 +47,7 @@
         },
         {
           "displayTitle": "Listen to TIP DRAP on streaming services (not spotify)",
-          "padLabel": "BIN RICH - TIP DRAP",
+          "padLabel": "Listen to BIN RICH - TIP DRAP",
           "link": "https://artists.landr.com/055905903864",
           "thumbnail": "tipdrap.png",
           "color": "#00ff66",
@@ -55,7 +55,7 @@
         },
         {
           "displayTitle": "Listen to Leaves On A Stream on streaming services",
-          "padLabel": "David Berry - Leaves On A Stream",
+          "padLabel": "David Berry - Leaves On A Stream on Streaming Services",
           "link": "https://artists.landr.com/davidberry",
           "thumbnail": "leaves.png",
           "color": "#00ff66",
@@ -63,7 +63,7 @@
         },
         {
           "displayTitle": "Listen to Cowry Bay on streaming services",
-          "padLabel": "David Berry - Cowry Bay",
+          "padLabel": "David Berry - Cowry Bay on Streaming Services",
           "link": "https://artists.landr.com/CowryBay1",
           "thumbnail": "cowrybay.png",
           "color": "#00ff66",
@@ -73,7 +73,7 @@
           "displayTitle": "straywave on Soundcloud",
           "padLabel": "straywave on Soundcloud",
           "link": "https://soundcloud.com/strayw4ve",
-          "thumbnail": "cowrybay.png",
+          "thumbnail": "straywave.png",
           "color": "#00ff66",
           "sound": "Wheel Up Signal Misc Jungle.wav"
         },
